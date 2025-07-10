@@ -1,7 +1,7 @@
 # The Way of the Gopher
 
 <p align="center">
-  <img src="assets/gopher-cover.png" alt="The Way of the Gopher" width="400" />
+  <img src="assets/gopher-cover-2.png" alt="The Way of the Gopher" width="1536" />
 </p>
 
 **Learn Go gracefully — A practical journey into Go**
@@ -117,5 +117,6 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  <img src="assets/gopher-road.png" alt="Gopher on a journey" width="300"/>
+
+[//]: # (  <img src="assets/gopher-road.png" alt="Gopher on a journey" width="400"/>)
 </p>
