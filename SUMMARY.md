@@ -17,10 +17,10 @@
 * Introduction to CDK in TypeScript
 * Creating Lambdas in Go
 * Integration with:
-* API Gateway
-* SQS and SNS
-* DynamoDB
-* S3
+  * API Gateway
+  * SQS and SNS
+  * DynamoDB
+  * S3
 * Basic CI/CD deployment with GitHub Actions
 
 ## 🧪 Part 4: Final Project
