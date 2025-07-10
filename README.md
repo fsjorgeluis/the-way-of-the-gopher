@@ -35,28 +35,85 @@ The book is divided into 4 main parts:
 
 ### 1. Go Fundamentals
 - Installation and setup
-- Types, structs, functions
-- Interfaces and methods
+  - Installing Go (Windows, macOS, Linux)
+  - Setting up your workspace and GOPATH
+  - Introduction to go mod and dependency management
+  - Writing and running your first Go program
+- Basic syntax, types, structs and methods, functions
+  - Variables, constants, types
+  - Conditionals and loops
+  - Arrays, slices, maps
+  - Functions and scope
+  - Defining and using structs
+  - Methods and receivers
+  - Pointers and references
+- Interfaces and composition
+  - Interfaces by example
+  - Duck typing and polymorphism
+  - Composition over inheritance
 - Error handling
+  - The Go error philosophy
+  - Custom errors and errors.Is/As
+  - Sentinel errors and wrapping
 - Goroutines and channels
+  - Goroutines: basic usage and pitfalls
+  - Channels: communication and patterns
+  - Select, timeouts, fan-in/fan-out
+  - Contexts and cancellation
 
 ### 2. Best Practices
 - Clean Code with Go
+  - Naming conventions, comments
+  - Readability and maintainability
+  - Organizing code into packages
 - Applying SOLID principles
+  - Adapting SOLID to Go idioms
+  - Dependency injection
+  - Interfaces and boundaries
 - Unit tests and mocks
+  - Table-driven tests
+  - Using testing and testify
+  - Creating mocks manually and with tools
 - Clean Architecture (for real)
+  - Layers and responsibilities
+  - Dependency inversion with interfaces
+  - Folder structure for real projects
 
 ### 3. Go in the Cloud ☁️
 - Intro to AWS CDK in TypeScript
+  - CDK basics: stacks, constructs, apps
+  - Synth and deploy
+  - Integrating with GitHub
 - Building Lambdas with Go
+  - Writing AWS Lambda functions in Go
+  - Deploying Lambdas with CDK
+  - Environment variables and IAM roles
 - Integration with API Gateway, SQS/SNS, DynamoDB, S3
+  - API Gateway and Lambdas
+  - DynamoDB: reads, writes, pagination
+  - SQS and SNS: event-driven communication
+  - S3: file upload and storage
 - Basic CI/CD with GitHub Actions
+  - Linting, testing, building Go projects
+  - CDK deploy automation
+  - Secrets management
 
 ### 4. Final Project
 - Complete microservice with Go + Clean Architecture
+  - Requirements and design
+  - Architecture diagram
+  - Technologies used
+  - Use cases and domain entities
+  - Input/output ports and adapters
+  - Implementing workflows
 - Asynchronous events, logs, error handling
+  - Logs, metrics, tracing
+  - Error handling and retries
 - Infrastructure with CDK
+  - CDK resources setup
+  - Deployment pipelines
 - Tests and deployments
+  - Local development and testing
 
 ---
 
