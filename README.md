@@ -4,6 +4,12 @@
   <img src="assets/gopher-cover-2.png" alt="The Way of the Gopher" width="1536" />
 </p>
 
+<a href="https://www.gitbook.com/preview?utm_source=gitbook_readme_badge&utm_medium=organic&utm_campaign=preview_documentation&utm_content=link">
+    <img
+        src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=ffffff&label=%20&labelColor=5c5c5c&color=3F89A1"
+    />
+</a>
+
 **Learn Go gracefully — A practical journey into Go**
 
 > From your first `fmt.Println` to deploying serverless microservices on AWS.
