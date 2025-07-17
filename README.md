@@ -36,7 +36,7 @@ The book is divided into 4 main parts:
 ### 1. Go Fundamentals
 - Installation and setup
   - Installing Go (Windows, macOS, Linux)
-  - Setting up your workspace and GOPATH
+  - Setting up your workspace
   - Introduction to go mod and dependency management
   - Writing and running your first Go program
 - Basic syntax, types, structs and methods, functions

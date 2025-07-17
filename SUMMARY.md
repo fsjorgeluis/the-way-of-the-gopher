@@ -2,6 +2,10 @@
 
 ## 🧩 Part 1: Go Fundamentals
 * Installation and setup
+  * Installing Go (Windows, macOS, Linux)
+  * Setting up your workspace
+  * Introduction to go mod and dependency management
+  * Writing and running your first Go program
 * Types, structs, and functions
 * Interfaces and methods
 * Errors and error handling
