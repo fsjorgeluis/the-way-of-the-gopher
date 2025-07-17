@@ -1,6 +1,6 @@
 # The Way of the Gopher
 
-<p align="center">
+<p style="text-align: center;">
   <img src="assets/gopher-cover-2.png" alt="The Way of the Gopher" width="1536" />
 </p>
 
@@ -34,7 +34,7 @@ All content is available in **English** and **Spanish**.
 The book is divided into 4 main parts:
 
 ### 1. Go Fundamentals
-- Installation and setup
+- [Installation and setup](part1-fundamentals/01-installation-and-setup.md)
   - Installing Go (Windows, macOS, Linux)
   - Setting up your workspace
   - Introduction to go mod and dependency management
@@ -179,7 +179,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-<p align="center">
+<p style="text-align: center;">
 
 [//]: # (  <img src="assets/gopher-road.png" alt="Gopher on a journey" width="400"/>)
 </p>
