@@ -53,7 +53,9 @@ After installation, confirm it’s working:
 ```bash
 go version
 ```
+
 You should see something like:
+
 ```bash
 go version go1.24.1 darwin/arm64
 ```
@@ -64,7 +66,8 @@ If you are here, well done! Go is installed and ready to go.
 
 Let’s now configure your environment and workspace the modern way.
 
-> Note: Starting with Go 1.11, the use of GOPATH is mostly optional thanks to Go modules (go mod). But it’s still good to understand how the workspace is structured.
+> [!NOTE]
+> Starting with Go 1.11, the use of GOPATH is mostly optional thanks to Go modules (go mod). But it’s still good to understand how the workspace is structured.
 
 ### 🗺️ 2.1 Create a Go workspace
 
@@ -79,8 +82,8 @@ I'm using `development`, but you can choose any other name if you want, this wil
 
 ## 📦 Step 3: Understanding Go Modules
 
-Go modules are how Go handles dependencies and versions. You no longer need to worry about $GOPATH or putting your code in specific folders.
-Essentially, a module is a collection of Go packages that are versioned as a single unit. Each module has a go.mod file at its root, 
+Go modules are how Go handles dependencies and versions. You no longer need to worry about `$GOPATH` or putting your code in specific folders.
+Essentially, a module is a collection of Go packages that are versioned as a single unit. Each module has a `go.mod` file at its root, 
 which defines the module's path and lists its dependencies along with their specific versions.
 
 We’ll initialize our first project with modules in the next step. You can find more information about Go [modules](https://go.dev/wiki/Modules) in the wiki.
@@ -104,9 +107,9 @@ cd hello-gopher
 go mod init github.com/YOUR_USERNAME/hello-gopher
 ```
 
-> Replace YOUR_USERNAME with your actual GitHub username or leave it generic — the name isn’t too important unless you plan to publish the code.
+> Replace `YOUR_USERNAME` with your actual GitHub username or leave it generic — the name isn’t too important unless you plan to publish the code.
 
-This will create a go.mod file, which tracks your module and dependencies.
+This will create a `go.mod` file, which tracks your module and dependencies.
 
 ### 🐹 4.3 Create the main file
 
@@ -171,6 +174,7 @@ echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-If you’re using bash, change ~/.zshrc to ~/.bash_profile.
+If you’re using bash, change `~/.zshrc` to `~/.bash_profile`.
 
+> [!NOTE]
 > With Homebrew, this step is usually not needed.
