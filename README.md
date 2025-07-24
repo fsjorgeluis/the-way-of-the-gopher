@@ -33,6 +33,9 @@ All content is available in **English** and **Spanish**.
 
 The book is divided into 4 main parts:
 
+### 0. Introduction
+- [Introduction](part0-intoduction/00-introduction.md)
+
 ### 1. Go Fundamentals
 - [Installation and setup](part1-fundamentals/01-installation-and-setup.md)
   - Installing Go (Windows, macOS, Linux)
